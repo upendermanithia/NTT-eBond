@@ -96,11 +96,6 @@ export const x_75746_ntt_ebond_u_ntt_ecase = Table({
                     sequence: 6,
                     inactive_on_update: false,
                 },
-                test_choice: {
-                    label: 'Test Choice',
-                    sequence: 7,
-                    inactive_on_update: false,
-                },
             },
             default: 'Unsubmitted',
             attributes: {},
@@ -277,11 +272,6 @@ export const x_75746_ntt_ebond_u_ecase_configuration = Table({
                 encode_utf8: false,
             },
             maxLength: 32,
-        }),
-        u_end_point: GenericColumn({
-            label: [{ label: 'End Point', language: 'en', plural: 'End points' }],
-            maxLength: 1024,
-            column_type: 'url',
         }),
         u_message_type: ChoiceColumn({
             label: 'Message Type',
