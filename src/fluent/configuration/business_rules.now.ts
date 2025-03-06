@@ -1,0 +1,1 @@
+import '@servicenow/sdk/global'
