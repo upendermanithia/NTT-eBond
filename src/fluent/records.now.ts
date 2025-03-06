@@ -1,5 +1,6 @@
 import '@servicenow/sdk/global'
 import { Record } from '@servicenow/sdk/core'
+//new table
 export default Record({
     $id: Now.ID['DDRecordUtilities'],
     table: 'sys_script_include',
