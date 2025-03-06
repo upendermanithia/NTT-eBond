@@ -1,11 +1,5 @@
 import '@servicenow/sdk/global'
-import {
-    ChoiceColumn,
-    GenericColumn,
-    ReferenceColumn,
-    StringColumn,
-    Table,
-} from '@servicenow/sdk/core'
+import { ChoiceColumn, GenericColumn, ReferenceColumn, StringColumn, Table } from '@servicenow/sdk/core'
 
 export const x_75746_ntt_ebond_u_ntt_ecase = Table({
     name: 'x_75746_ntt_ebond_u_ntt_ecase',

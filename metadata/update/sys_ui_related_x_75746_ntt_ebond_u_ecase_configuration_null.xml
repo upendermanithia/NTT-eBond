@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_75746_ntt_ebond_u_ecase_configuration" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="eCase Configuration - Default view" name="x_75746_ntt_ebond_u_ecase_configuration" related_list="NULL" sys_domain="global" view="Default view">1a76b4fe83c42210621957d6feaad3ed</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_75746_ntt_ebond_u_ecase_field_attribute_map.u_rule</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-06 13:51:16</sys_created_on>
+            <sys_id>5676b4fe83c42210621957d6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-06 13:51:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>eCase Configuration - Default view</calculated_name>
+            <filter/>
+            <name>x_75746_ntt_ebond_u_ecase_configuration</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-06 13:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a76b4fe83c42210621957d6feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>eCase Configuration - Default view</sys_name>
+            <sys_package display_value="NTT eBond" source="x_75746_ntt_ebond">76cd432683482210621957d6feaad3ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NTT eBond">76cd432683482210621957d6feaad3ff</sys_scope>
+            <sys_update_name>sys_ui_related_x_75746_ntt_ebond_u_ecase_configuration_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-06 13:51:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

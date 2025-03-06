@@ -1,4 +1,4 @@
-import { Record } from "@servicenow/sdk/core"
+import { Record } from '@servicenow/sdk/core'
 
 export const ShowOutboundFields = Record({
     $id: Now.ID['up0'],
