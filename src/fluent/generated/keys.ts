@@ -93,9 +93,42 @@ declare global {
                         table: 'sys_ui_section'
                         id: 'a86fcedb5b924fcc992ba0475347fdc1'
                     }
+                    sp0: {
+                        table: 'sys_scope_privilege'
+                        id: '746e518844be43a3bdae6660379b1dfd'
+                    }
+                    sp1: {
+                        table: 'sys_scope_privilege'
+                        id: '30f44160c11f400189b944d792aed8e8'
+                    }
                 }
                 deleted: {
                     sys_ui_list_element: [
+                        '9f7dd0fb67dd425dbd71c8681869f1fd',
+                        'a81264ebd422465cbcbe2c85d17a0208',
+                        'a69ea4d07b094f2884198b3485126fc4',
+                        '7f9a6f77b3324fcdae40340170dc951a',
+                        'ad1e9587515348f882d898bc3d6ba27a',
+                        'c44cd71b89b24d54b5acdb32e14687d3',
+                        'bc347864c243461daa3ec4baa5b74ebe',
+                        'a7a427479e074c4c957d18be5ad35124',
+                        '8507d5e1e9a748d9b30b18de659dcffb',
+                        'd4ca7c5c7551448ca2cbbc4b865c1389',
+                        'd327ad7b806b4afdbd28ed474745a30f',
+                        'd2ef21ba037f443997c117cc86b145ba',
+                        'be309bb2473b425c8235d56bbc32680b',
+                        'd89061d9ca374f5bb17e8a26a4b8ba6b',
+                        '6faff847394b4dd292f057cbd0f9a330',
+                        '08f0975a2ed84ed98762af6045197070',
+                        '94c24403070c4fa080ce6be1bae4ee92',
+                        '551dd484911a4083978416f6a3422532',
+                        'c00bfe055513421f99c746e039aab203',
+                        '0bfad2ed95b54b12ad938c7d7121335d',
+                        '820b920658b948eaa1a47646e9c42911',
+                        'df09ee915b1a48708a3250199ad40dfb',
+                        '50e2817dc7fe4022834f93ae93e9f971',
+                        '1722e2c035344a18b3dca021050e8830',
+                        'b94f541ed7d84df0baa84a7c6cfe6f01',
                         'c379aec11f074bacb164d9de7037deaa',
                         '190645b1d0984a6db7b844d938bce901',
                         '939057a9195547e58326a47cefda8419',
