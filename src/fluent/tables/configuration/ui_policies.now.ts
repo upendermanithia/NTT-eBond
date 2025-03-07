@@ -28,7 +28,7 @@ export const ShowRESTFields = Record({
     table: 'sys_ui_policy',
     data: {
         active: true,
-        conditions: 'u_message_type=REST Message^EQ',
+        conditions: 'u_message_type=REST Message^u_direction=Outbound^EQ',
         global: true,
         inherit: false,
         isolate_script: true,
@@ -51,7 +51,7 @@ export const ShowSOAPFields = Record({
     table: 'sys_ui_policy',
     data: {
         active: true,
-        conditions: 'u_message_type=SOAP Message^EQ',
+        conditions: 'u_message_type=SOAP Message^u_direction=Outbound^EQ',
         global: true,
         inherit: false,
         isolate_script: true,

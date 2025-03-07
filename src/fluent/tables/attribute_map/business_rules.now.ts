@@ -13,6 +13,5 @@ BusinessRule({
     table: 'x_75746_ntt_ebond_u_ecase_field_attribute_map',
     name: 'Populate Apply to Table field',
     order: 100,
-    description:'Populate Apply to Table field',
     abort_action: false,
 })
