@@ -107,6 +107,7 @@ export const x_75746_ntt_ebond_u_ecase_configuration = Table({
                 type: 'dependent_field',
                 column_name: 'u_applies_to_table',
             },
+            maxLength: 4000,
         }),
         u_applies_to_table: TableNameColumn({
             label: 'Applies to table',
