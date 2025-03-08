@@ -1,0 +1,46 @@
+import { Record } from '@servicenow/sdk/core'
+
+export const OauthEntity = Record({
+    $id: Now.ID['oe01'],
+    table: 'oauth_entity',
+    data: {
+        access: 'public',
+        access_token_lifespan: 1800,
+        active: true,
+        auth_code_lifespan: 0,
+        auth_url: 'https://github.com/login/oauth/authorize',
+        client_id: 'Ov23lirnbSM2sU1RE67R',
+        client_secret: '89b3599e478643491826c71a00d5b8df2523aebc',
+        client_uuid: 'c5ccb95f8344e210621957d6feaad35a',
+        code_challenge_method: 'S256',
+        default_grant_type: 'authorization_code',
+        extend_refresh_token_expiry: false,
+        id_token_lifespan: 0,
+        message_signature_lifespan: 0,
+        mobile_client: false,
+        name: 'Github eBond',
+        oauth_api_script: '24e3770e93220210e7959b9481891847',
+        public_client: false,
+        redirect_url: 'https://dev285804.service-now.com/oauth_redirect.do',
+        refresh_token_lifespan: 8640000,
+        restricted_binding: false,
+        salt: 0,
+        send_client_credentials_as: 'request_body_parameter',
+        skip_authorize: false,
+        sys_name: 'Github eBond',
+        token_url: 'https://github.com/login/oauth/access_token',
+        type: 'oauth_provider',
+        use_mutual_auth: false,
+    },
+})
+Record({
+    $id: Now.ID['ep01'],
+    table: 'oauth_entity_profile',
+    data: {
+        default: true,
+        grant_type: 'authorization_code',
+        name: 'Github eBond default_profile',
+        oauth_entity: OauthEntity, //'09ccb95f8344e210621957d6feaad35a',
+        sys_name: 'Github eBond default_profile',
+    },
+})
