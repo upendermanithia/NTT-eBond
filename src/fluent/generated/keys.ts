@@ -121,9 +121,38 @@ declare global {
                         table: 'oauth_entity_profile'
                         id: '6c09cb936f8c4f8cb73544284ab10fe2'
                     }
+                    lv09: {
+                        table: 'sys_ui_list'
+                        id: '6ca08e7902174352945c546f0ea8678d'
+                    }
                 }
                 deleted: {
                     sys_ui_list_element: [
+                        '7abf6431827749c29bbb145c6b86dbea',
+                        'a9a5a42380c74e62943f15588ca1a5b5',
+                        '9f94a6cc44874a17a249683b88c8fd77',
+                        '02f3e14758ab443bb980f41181d88361',
+                        '505abf22675944e9bb4659962399dcad',
+                        'cdb83591ac6848a1a4c698e0c1f5e830',
+                        '602ae5ab96cc44de8f66f8997f42ae23',
+                        '5e28c0f0e72f461ba09acc423d69a34c',
+                        'ad4dcc1b80d147a0906249df58ab930a',
+                        '0d36f824125d4ff7a5d0c449a12b01b5',
+                        'bd4dc711a9c048e5a20a0a2aea42f699',
+                        'ef971a0300ea49278456e479d0901c7f',
+                        '49ac9be009924646886fc377f3522250',
+                        '38b361f3e65a432c83a93a5601dc27c6',
+                        '2817e362c5594e05b18eb30df3d7b0f4',
+                        '628cc9a371504f85a1c1e1733b460ba4',
+                        '69a1713466844552ac1da7c560852178',
+                        '9c9d82d2ce7947cca5507c077010bb1f',
+                        '87c5fbbf7da148be800446be4889219c',
+                        '14d19346993f43439b5e4c573fb65da4',
+                        '761871bc76c74d7586588a80cdde1897',
+                        '1f1e82d3a7a54ed4a6e4c8b4e282b930',
+                        '5e0198567d254226ac53835899da33e2',
+                        '8a9d985ddaa94f8ca5df2fd71eedb80c',
+                        '61dca82c40df47f4b1aa65b173c33e5c',
                         '12168ea0350c45ebb0cb483b286fa282',
                         '5555e045e33f45cdab8a713733ae0779',
                         '76ddb22b5a074d0bb329fdc4ad178224',
